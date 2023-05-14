@@ -4,3 +4,5 @@
 
 # MATLAB
 *.asv
+
+/PROP_DATA
