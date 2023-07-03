@@ -8,17 +8,20 @@ end
 clear files i
 
 %% User inputs
+% Max takeoff weight (Refer to Table of Dimensions / BoM)
 max_takeoff_weight = 1.5; % lbf
+% Designed Thrust-to-Weight Ratio
 TW_ratio = 2; 
+% Nominal cell voltage (do not change)
 cell_voltage_nominal = 3.7; % V
+% Battery information (refer to BoM)
 n_cells = 3; 
 capacity_mah = 2200; % mAh
+% Motor shaft efficiency (0.8 is a good guess)
 shaft_eff = 0.8; 
 
 thrust_search_range = 1; % lbf 
 R_motor = 0.15; % ohm
-
-
 tip_mach = 0.5; % 0.5 is usually acceptable for 
 
 % 
