@@ -8,7 +8,7 @@ W = 6; %in
 % Passenger Dims
 D_pax = 1.5; %in
 R_pax = D_pax / 2; % in
-FoS = .10; 
+FoS = .10; % Factor of safety + no touching margin
 D = D_pax * (1+FoS); % in
 R = D/2; % in
 
