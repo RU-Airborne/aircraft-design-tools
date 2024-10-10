@@ -22,7 +22,7 @@ shaft_eff = 0.8;
 
 thrust_search_range = 1; % lbf 
 R_motor = 0.15; % ohm
-tip_mach = 0.5; % 0.5 is usually acceptable for 
+tip_mach = 0.5; % 0.5 is usually acceptable 
 
 % 
 total_voltage_nominal = n_cells * cell_voltage_nominal; % V
